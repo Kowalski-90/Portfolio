@@ -141,6 +141,16 @@ main {
     transition: transform .3s ease-in-out;
 }
 
+.html-perc {
+    display: none;
+}
+
+button#html:hover + .html-perc {
+    display: block;
+    color: green;
+    font-size: 1.8em;
+}
+
 #html {
     background-color: #F16524;
 }
