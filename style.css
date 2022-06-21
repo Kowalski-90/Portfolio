@@ -20,11 +20,10 @@
     font-family: var(--font);
     list-style-type: none;
     background: rgba(5, 218, 242, 0.363);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0);
     backdrop-filter: blur(3px);
     -webkit-backdrop-filter: blur(3px);
-    border: 1px solid rgba(5, 219, 242, 0.3);
-        
+    border: 1px solid rgba(5, 218, 242, 0);
 }
 
 .nav li {
@@ -32,7 +31,14 @@
     padding: 10px;
     text-decoration: none;
     text-decoration: none;
+    font-size: 1.2em;
+    font-weight: lighter;
     color: white;    
+}
+
+.nav h3 {
+    font-weight: lighter;
+    color: var(--blue03);
 }
 
 .nav li a {
@@ -54,7 +60,7 @@
     height: 4px;
     border-radius: 5px;
     background: linear-gradient(to right, var(--blue02), var(--blue05));
-    bottom: 3px;
+    bottom: 6px;
     left: 0;
     transform-origin: right;
     transform: scaleX(0);
@@ -74,12 +80,12 @@
 }
 
 .avatar {
-   width: 20%;  
-   height: 20%;
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   margin-top: 15px;
+    width: 20%;  
+    height: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
 }
 
 body {
