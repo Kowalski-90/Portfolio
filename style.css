@@ -40,12 +40,37 @@
     text-decoration: none;
     text-transform: uppercase;
     color: white;
+    overflow: hidden;    
+}
+
+.link {
+    position: relative;
+}
+
+.link::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 5px;
+    background: linear-gradient(to right, var(--blue02), var(--blue05));
+    bottom: 3px;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+
+.link:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
 }
 
 .input {
     width: auto;
     height: auto;
-    margin-bottom: -8px ;
+    padding-top: 15px;
+    padding-bottom: -15px;
 }
 
 .avatar {
@@ -104,5 +129,9 @@ footer p {
 }
 
 footer a {
+    text-decoration: none;
+}
+
+.author {
     text-decoration: none;
 }
