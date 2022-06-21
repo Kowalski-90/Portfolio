@@ -43,15 +43,18 @@
 }
 
 .input {
-    width: 163px;
-    height: 35px;
-    margin-bottom: -11px ;
+    width: auto;
+    height: auto;
+    margin-bottom: -8px ;
 }
 
-.img {
-    background-image: url('images/Ocean.png');
-    margin: 0;
-    padding: 0;
+.avatar {
+   width: 20%;  
+   height: 20%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 15px;
 }
 
 body {
