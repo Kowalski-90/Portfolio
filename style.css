@@ -14,6 +14,15 @@
     padding: 0;
 }
 
+header {
+    display: unset;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
 .nav {
     margin: 0;
     padding: 10px;
@@ -100,7 +109,7 @@ body {
 main {
     min-width: 300px;
     max-width: 800px;
-    height: 1000px;
+    height: 2000px;
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
@@ -108,6 +117,14 @@ main {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;   
+}
+
+#about p {
+    line-height: 1.5;
+}
+
+#resume p {
+    line-height: 1.5;
 }
 
 .skills {
