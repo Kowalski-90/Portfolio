@@ -121,11 +121,10 @@ main {
 
 .language {
     border: 1px solid var(--blue03);    
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     padding: auto;
     border-radius: 50%;
-    cursor: pointer;
     margin: 5px;
     margin-top: 20px;    
     position: relative;
@@ -141,26 +140,45 @@ main {
     transition: transform .3s ease-in-out;
 }
 
-.html-perc {
-    display: none;
+.percentage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
 }
 
-button#html:hover + .html-perc {
-    display: block;
-    color: green;
-    font-size: 1.8em;
+.percentage h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -5px 13px 10px 19px;
+    color: white;
+    font-weight: lighter;
 }
 
 #html {
     background-color: #F16524;
+    font-size: 0.8em;
+    text-align: center;
+    color: #202124;
+    font-weight: bold;
 }
 
 #css {
     background-color: #29A9DF;
+    font-size: 0.8em;
+    text-align: center;
+    color: #202124;
+    font-weight: bold;
 }
 
 #javascript {
     background-color: #F7DF1E;
+    font-size: 0.8em;
+    text-align: center;
+    color: #202124;
+    font-weight: bold;
 }
 
 h1 {
