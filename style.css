@@ -109,7 +109,7 @@ body {
 main {
     min-width: 300px;
     max-width: 800px;
-    height: 2000px;
+    height: 1000px;
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
@@ -209,6 +209,12 @@ h1 {
 p {
     text-align: justify;
     color: white;
+    font-size: 1.2em;
+}
+
+q {
+    font-style: italic;
+    font-weight: lighter;
 }
 
 footer {
@@ -240,4 +246,18 @@ footer a:hover {
 
 .author {
     text-decoration: none;
+}
+
+.badges {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badges a {
+    margin: 3px 3px;
+}
+
+#insta {
+    margin-top: 15px;
 }
