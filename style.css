@@ -15,7 +15,7 @@
 }
 
 header {
-    display: unset;
+    display: contents;
 }
 
 .sticky {
@@ -117,7 +117,7 @@ main {
     background-color: var(--blue02);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
     border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;   
+    border-bottom-right-radius: 10px;
 }
 
 #about p {
@@ -140,7 +140,7 @@ main {
 }
 
 .language {
-    border: 1px solid var(--blue03);    
+    border: 0px solid var(--blue03);    
     width: 60px;
     height: 60px;
     padding: auto;
@@ -194,7 +194,7 @@ main {
 }
 
 #javascript {
-    background-color: #F7DF1E;
+    background-color: #dfc81a;
     font-size: 0.8em;
     text-align: center;
     color: #202124;
